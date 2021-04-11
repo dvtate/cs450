@@ -1,0 +1,8 @@
+language: c
+dist: xenial
+script: make 
+addons:
+    apt:
+        update: true
+        packages:
+            - tcsh
